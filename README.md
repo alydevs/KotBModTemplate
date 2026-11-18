@@ -1,12 +1,11 @@
-ModTemplate
+KotBModTemplate
 =============
 
-A King Of The Bridge mod template
+A King Of The Bridge mod template for VS 2026
 
 Installation
 ------------
 
-1. Get MelonLoader.Installer.exe: https://github.com/LavaGang/MelonLoader.Installer/releases/latest/download/MelonLoader.Installer.exe
-2. Use it to install MelonLoader on King of the Bridge (tested MelonLoader v0.7.3)
-3. Extract ModTemplate.zip to your King of the Bridge installation folder. It'll put the file ModTemplate.dll into Mods/
-4. Run the game
+1. Download the latest release
+2. Put the zip in `%userprofile%\documents\Visual Studio 18\Templates\ProjectTemplates`
+3. Restart VS, make new project, search for KotBModTemplate 
