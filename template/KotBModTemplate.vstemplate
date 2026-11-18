@@ -16,14 +16,12 @@
   </TemplateData>
   <TemplateContent>
     <Project TargetFileName="ModTemplate.csproj" File="ModTemplate.csproj" ReplaceParameters="true">
-      <ProjectItem ReplaceParameters="true" TargetFileName=".gitignore">.gitignore</ProjectItem>
       <ProjectItem ReplaceParameters="true" TargetFileName="Core.cs">Core.cs</ProjectItem>
-      <ProjectItem ReplaceParameters="false" TargetFileName="Directory.Build.props">Directory.Build.props</ProjectItem>
-      <ProjectItem ReplaceParameters="false" TargetFileName="Directory.Build.props">vstg0001.Build.props</ProjectItem>
-      <ProjectItem ReplaceParameters="false" TargetFileName="README.md">README.md</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Directory.Build.props">Directory.Build.props</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="README.md">README.md</ProjectItem>
     </Project>
     <CustomParameters>
-        <CustomParameter Name="$gamePath$" Value="D:\\SteamLibrary\\steamapps\\common\\King of the Bridge"/>
+        <CustomParameter Name="$gamePath$" Value="D:/SteamLibrary/steamapps/common/King of the Bridge"/>
     </CustomParameters>
   </TemplateContent>
 </VSTemplate>
